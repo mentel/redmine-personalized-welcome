@@ -22,9 +22,9 @@ APP ROOT:
 3. As an admin, go to Administration -> Settings, and edit the 'Welcome text'
    field to something like:
 
-      Welcome {{user_fullname}}
+          Welcome {{user_fullname}}
 
-   This macro (`{{user_fullname}}`) can be used anywhere in the app now.
+  This macro (`{{user_fullname}}`) can be used anywhere in the app now.
 
 4. Done!
 

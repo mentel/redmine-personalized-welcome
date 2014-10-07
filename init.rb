@@ -3,11 +3,11 @@ Redmine::Plugin.register :welcome do
   author 'Mentel'
   description "Adds ability to display current user's full name from editable text regions for admins"
   version '0.0.1'
-  url 'http://example.com/path/to/plugin'
-  author_url 'http://mentel.com'
+  url 'https://github.com/mentel/redmine-personalized-welcome'
+  author_url 'http://www.mentel.com'
 end
 
-# adds {{user_fullname}} macro
+# adds {{user_fullname}} macro that displays the currently signed in user's full name
 Redmine::WikiFormatting::Macros.register do
   desc "full name of current user"
   macro :user_fullname do |obj, args|
